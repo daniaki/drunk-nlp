@@ -5,8 +5,7 @@
 '''
 from loadData import loadCommon
 from loadData import loadTweetData
-import re, os
-from nltk import tokenize
+import re
 
 # pattern match for url and non-alphabetic chars
 nonAlpha = r'[^A-Za-z]?[\d]?'
